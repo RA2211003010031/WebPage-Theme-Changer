@@ -1,0 +1,56 @@
+:root{
+    --green: #a0bba0;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontcolour);
+    font-family: monospace;
+}
+
+/* ul {
+    font-family: helvetica;
+} */
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+/* 
+#text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+.btn{
+    background-color: var(--btnbg);
+    color: var(--btnfontcolor);
+    position: absolute;
+    top: 2px;
+    left: 250px;
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontcolour: var(--black);
+
+    --btnbg: var(--white);
+    --btnfontcolor: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontcolour: var(--white);
+
+    --btnbg: var(--white);
+    --btnfontcolor: var(--black);
+}
+
